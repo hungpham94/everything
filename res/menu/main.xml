@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tactantat.MainActivity" >
+    <item  
+        android:title="@string/action_setting"
+        android:showAsAction="always"
+         android:orderInCategory="100">
+         <menu>
+             <item
+            android:id="@+id/contacts"
+            android:showAsAction="never"
+            android:title="Contacts"/>
+
+
+        <item
+            android:id="@+id/service_Tasks"
+            android:showAsAction="never"
+            android:title="Service Tasks"/>
+
+
+        <item
+            android:id="@+id/charge_summary"
+            android:showAsAction="never"
+            android:title="Charge Summary"/>
+
+
+        <item
+            android:id="@+id/capture_signature"
+            android:showAsAction="never"
+            android:title="Capture Signature"/>
+         </menu>
+        
+    </item>
+     <item android:id="@+id/action_create_folder" 
+         android:title="@string/action_setting"
+         
+          android:menuCategory="container"
+        android:showAsAction="ifRoom"
+         android:orderInCategory="4"
+         android:icon="@drawable/ic_launcher">  
+    </item>
+    <!-- chia se do ma -->
+   <item android:id="@+id/action_share" 
+        android:title="@string/action_share" 
+        android:showAsAction="ifRoom"
+         android:orderInCategory="2"
+         android:actionProviderClass="android.widget.ShareActionProvider">  
+    </item>
+
+</menu>

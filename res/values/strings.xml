@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="motahinhanh">Day la mo ta hinh anh logo menu</string>
+    <string name="app_name">tactantat</string>
+    <string name="action_setting">Setting</string>
+    <string name="create_folder">Folder</string>
+    <string name="action_share">Share</string>
+    <string name="Fragment">Đây là FragMent đầu tiên</string>
+   <string-array name="pasta">
+   <item>Spaghetti Bolognesi</item>
+    <item>Lasagne</item>
+    </string-array>
+   <string-array name="pizzas">
+   <item>Diavolo</item>
+    <item>Funghi</item>
+    </string-array>
+    <string name="Update">Update</string><string-array name="stores">
+	 <item>Cambridge</item>
+	 <item>Sebastopol</item>
+	</string-array>
+    <string-array name="caichonkhi">
+        <item>Drink</item>
+        <item>Food</item>
+        <item>Cookie</item>
+    </string-array>
+    <string name="Show">Show</string><string name="Insert">Insert</string><string-array name="navigation">
+        <item>Home</item>
+        <item>Pasta</item>
+        <item>Pizzas</item>
+        <item>Stores</item>
+    </string-array>
+    
+    
+    
+</resources>
